@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "Play hangman using your terminal.",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwilson99/Hangman-Prompt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwilson99/Hangman-Prompt/issues"
+  },
+  "homepage": "https://github.com/jwilson99/Hangman-Prompt#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
