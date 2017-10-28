@@ -1,12 +1,11 @@
 // **Letter**: Used for each letter in the current word. Each letter object should either display an underlying character, or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. This should contain letter specific logic and data.
 
 //includes word.js
-var wordToGuess = require("./word.js");
-wordToGuess = wordToGuess.word;
+var word = require("./word.js");
+wordToGuess = word.wordToGuess.word;
 
 //splits the word from words.js into an array of letters
 var lettersSplit = wordToGuess.split("");
-console.log(lettersSplit);
 
 //a string to store underscores representing each letter fo the word to guess
 var underscoreDisplay = "";
@@ -33,4 +32,4 @@ for (var i = 0; i < lettersSplit.length; i++){
 };
 
 
-module.exports = {lettersSplit, wordLetters, underscoreDisplay};
+module.exports = {lettersSplit, wordLetters, underscoreDisplay,Letter};
